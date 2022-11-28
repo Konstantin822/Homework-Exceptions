@@ -3,12 +3,12 @@ package Calc;
 public class ArrayValueCalculator {
         public static int doCalc(String[][] array) throws ArraySizeException, ArrayDataException {
                 
-            if (array.length == 4 && array[0].length == 4){
+            if (array.length == 4 && array[0].length == 4) {
             } else {
                 throw new ArraySizeException("Wrong array lenght");
             }
             int sum = 0;
-            if (array.length != 4){
+            if (array.length != 4) {
                 throw new ArraySizeException("Wrong array lenght");
             }
 
